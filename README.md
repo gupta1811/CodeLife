@@ -7,20 +7,16 @@
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/tailwind%20css-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-# FireCode
+# CodeLife
 
-FireCode is a clone of LeetCode, a platform for developers to practice coding problems and improve their skills. This project was created as a full-stack project _(my first full-stack project)_ using Express, MongoDB, Mongoose, TypeScript,TypeScript React (TSX), CSS3, and Tailwind CSS.
-
-# Demo
-
-You can see the live demo of website at https://fire-code.vercel.app.
+CodeLife is a clone of LeetCode, a platform for developers to practice coding problems and improve their skills. This project was created as a full-stack project _(my first full-stack project)_ using Express, MongoDB, Mongoose, TypeScript,TypeScript React (TSX), CSS3, and Tailwind CSS.
 
 # Installation
 
 ### Clone the repository and install server and client dependencies:
 
 ```bash
-git clone https://github.com/ManiGhazaee/FireCode.git
+git clone https://github.com/gupta1811/CodeLife.git
 cd FireCode/server
 npm install
 cd ../client
@@ -32,18 +28,6 @@ npm install
 ```bash
 npm start
 ```
-
-### Configure the MongoDB Database and JWT Secret:
-
-Before starting the server, make sure to configure the following environment variables in the `server/.env` file:
-
--   `MONGODB_URI`: Set this variable to your MongoDB connection string.
--   `ACCESS_TOKEN_SECRET`: Set this variable to a secret key for JWT access tokens.
-
-### Configure the API URL:
-
-To use your own API, open the `client/src/App.tsx` file and find the `API_URL` constant. Update its value to match the URL of your deployed server (`http://localhost:80`).
-
 ### Start the server in the `server` directory:
 
 ```bash
